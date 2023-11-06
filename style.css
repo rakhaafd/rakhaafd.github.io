@@ -129,6 +129,7 @@ body {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
+
 /* about */
 .about,
 .product, #testimoni, .contact-container {
@@ -288,15 +289,20 @@ form {
     flex-direction: column;
     text-align: left;
     width: 100%;
+    padding: 5px;
 }
 
 label {
-    font-weight: 300;
+    font-size: 15px;
+}
+
+label span {
+  color: #ff003f;
 }
 
 input, textarea {
     font-family: 'Poppins';
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 100%;
